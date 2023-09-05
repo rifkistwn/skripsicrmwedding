@@ -22,7 +22,7 @@
                         <div class="down-content text-center">
                             <h4 class="mb-0">{{ $venue->name }}</h4>
                             <p class="position-static my-4">Kapasitas: {{ $venue->capacity }} orang</p>
-                            <a href="about.html" class="filled-button mt-2">Lihat Detail</a>
+                            <a href="{{ route('client.venue.show', $venue->slug)}}" class="filled-button mt-2">Lihat Detail</a>
                         </div>
                     </div>
                 </a>
