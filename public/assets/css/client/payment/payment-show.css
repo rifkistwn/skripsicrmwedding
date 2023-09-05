@@ -1,0 +1,7 @@
+.transaction-proof {
+  width: 400px;
+}
+
+.input-group:has(.custom-file):hover, input:hover, input#file-upload-button:hover {
+  cursor: pointer;
+}

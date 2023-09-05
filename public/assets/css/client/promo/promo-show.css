@@ -1,0 +1,21 @@
+.packet-cart:hover {
+  cursor: pointer;
+}
+
+.packet-cart:hover i, .packet-cart:hover h6 {
+  color: var(--primary);
+}
+
+.promo-thumbnail {
+  width: 100%;
+  height: 250px;
+}
+
+.promo-prices .discount p.price-discount {
+  text-decoration: line-through;
+  font-size: 0.6rem;
+}
+
+.promo-prices .discount .badge {
+  font-size: 0.6rem;
+}

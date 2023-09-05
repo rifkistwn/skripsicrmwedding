@@ -1,0 +1,16 @@
+.cart-packet-img {
+  width: 100%;
+  height: 200px;
+}
+
+input[name=display-date-input] {
+  pointer-events: none;
+}
+
+input[name=display-date-input]:hover, .input-group.date:hover {
+  cursor: pointer;
+}
+
+[name=cart-list] {
+  border-bottom: 1px solid #eee;
+}

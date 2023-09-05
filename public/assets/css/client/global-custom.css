@@ -1,0 +1,62 @@
+.ap-container {
+  padding-top: 150px;
+  min-height: 80vh;
+}
+
+.banner {
+  margin-left: -1px;
+  padding-top: 125px !important;
+}
+
+.down-content {
+  min-height: 200px;
+}
+
+.filled-button {
+  border: 1px solid transparent;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+}
+
+.filled-button:hover {
+  border: 1px solid var(--primary);
+}
+
+.down-content h4 {
+  color: var(--primary) !important;
+}
+
+.cover-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-image.default-image {
+  background-size: contain;
+}
+
+.card-hover-shadow:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+
+.ab-text-primary {
+  color: var(--primary);
+}
+
+input[type=checkbox].form-check-input {
+  border: 1px solid #000;
+}
+
+.user-info .dropdown-toggle::after {
+  display: none;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}
+
+header.background-header .ap-right-panel i, header.background-header .ap-right-panel p {
+  color: #000 !important;
+}

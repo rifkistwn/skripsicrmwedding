@@ -1,0 +1,36 @@
+.logo-image img {
+  width: 80px;
+}
+
+.ap-right-panel .account i {
+  font-size: 2rem;
+}
+
+.ap-search-input {
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  max-width: 150px;
+}
+
+.ap-search-input input[type=text] {
+  max-width: 100px;
+}
+
+.ap-search input[type=text] {
+  border: 0px;
+}
+
+.ap-search input[type=text]:focus {
+  outline: none;
+}
+
+.ap-right-icon, .ap-account i {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.ap-search i:hover, .ap-account i:hover {
+  color: var(--primary);
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.login-illustration {
+  height: 700px;
+  width: 100%;
+  background-image: linear-gradient(
+		rgba(0, 0, 0, 0.2), 
+		rgba(0, 0, 0, 0.2)
+	), url('/assets/images/client/images/landing-page-2.jpg');
+}
+
+.ab-logo img {
+  width: 150px;
+}

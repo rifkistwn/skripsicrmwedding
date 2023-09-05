@@ -1,0 +1,7 @@
+.packet-cart:hover {
+  cursor: pointer;
+}
+
+.packet-cart:hover i, .packet-cart:hover h6 {
+  color: var(--primary);
+}
